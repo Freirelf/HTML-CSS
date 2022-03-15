@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url(fontes/idroid.otf);
+
+:root {
+    --cor0: #26405C;
+    --cor01: #5A98DB;
+    --cor02: #A0C0E1;
+    --cor03: #414E5C;
+    --cor04: #4575A8; 
+    --cor05: #188DDB;
+    --fonte0: arial, Helvetica, sans-serif;
+    --fonte01: 'Bebas Neue' cursive;
+    --fonte02: 'Android', sans-serif;
+}
+
+body {
+    background-color: var(--cor03);
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    font-family: var(--fonte0);
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor04), var(--cor05));
+    padding: 10px;
+}
+
+header h1 {
+    margin-bottom: 0px;
+}
+
+main {
+    min-width: 400px;
+    max-width: 800px;
+    background-color: aliceblue;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+
+}

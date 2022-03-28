@@ -9,13 +9,57 @@ body {
 
 header {
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: aliceblue;
+
 }
 
 h1{
     margin-top: 0px;
     padding-top: 40px;
     font-size: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+#pt {
+    text-align: center;
+}
+
+#bc1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+#bc2{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+#bc3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+#bc4{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+#bc5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
 }
